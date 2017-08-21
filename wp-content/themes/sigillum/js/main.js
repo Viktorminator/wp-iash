@@ -28,7 +28,7 @@ function startGenealogiaTween() {
     Gtl.to(tubebad, 1, { rotation: '-5', transformOrigin: '100% 0' }, 0.5);
     Gtl.to(tubebad, 1, { rotation: 0, transformOrigin: '100% 0' }, 1.2);
     Gtl.to(swatch, 0.01, { autoAlpha: 1});
-    Gtl.to(tube, 0.1, { width: '+=6', attr:{src:'/img/tube.png'}});
+    Gtl.to(tube, 0.1, { width: '+=6', attr:{src:'/wp-content/themes/sigillum/img/tube.png'}});
     Gtl.to(hat, 0.1, { autoAlpha: 1 });
     Gtl.to(tube, 0.1, { autoAlpha: 1 });
     Gtl.to(tubebad, 0.1, { autoAlpha: 0 });
@@ -37,7 +37,7 @@ function startGenealogiaTween() {
     /* TUBE OPENING */
     Gtl.to(swatch, 0.2, { x: '+=4', y: '+=2', rotation: 100, transformOrigin: "0 0", ease: Back.easeOut.config(4)});
     Gtl.to(hat, 0.5, { x: '-=1', y: '+=5', rotation:-160, transformOrigin:"0px 0px"});
-    Gtl.to(hat, 0.01, { x: '+=5', attr:{src:'/img/hat2.png'}});
+    Gtl.to(hat, 0.01, { x: '+=5', attr:{src:'/wp-content/themes/sigillum/img/hat2.png'}});
     /* TUBE LEFT */
     Gtl.to(tube, 1, { x: -668, y: -10, scale: 1.25 });
     Gtl.to(paper, 1, { x: -50, y: '-=8', delay: -1, scale: 1.2 });
@@ -72,7 +72,7 @@ function startSfragistikaTween() {
     Stl.to(letter, 0.8, { y: '+=50', ease:Back.easeOut.config(1, 0.4) }, 2.2);
     Stl.to(stampiron, 0.8, { y: '+=50', ease:Back.easeOut.config(1, 0.4) }, 2.2);
     Stl.to(glove, 0.8, { y: '+=50', ease:Back.easeOut.config(1, 0.4) }, 2.2);
-    Stl.to(glove, 1, { attr:{src:'/img/glove2.png'}}, 2);
+    Stl.to(glove, 1, { attr:{src:'/wp-content/themes/sigillum/img/glove2.png'}}, 2);
     Stl.to(stamper, 0.01, { y: '+=45' }, 2);
     Stl.to(glove, 1, { bezier: [{x: '0', y: '0'}, {x: '-400', y: '200'},  {x: '-500', y: '500'}]  });
     Stl.to(stampiron, 1, { bezier: [{x: '0', y: '0'}, {x: '-400', y: '200'},  {x: '-500', y: '500'}] }, 3);
@@ -94,7 +94,7 @@ function startGeraldikaTween(bw) {
     Grl.to(saber2, 1, { y: '100', ease:Elastic.easeOut.config(1, 0.75)  }, 0 );
     Grl.to(garda, 1, { y: '100', ease:Elastic.easeOut.config(1, 0.75)  }, 0 );
 
-    /*  Grl.to(saber, 0.01, {attr:{src:'/img/scabbard.png'}}, 1.5);
+    /*  Grl.to(saber, 0.01, {attr:{src:'/wp-content/themes/sigillum/img/scabbard.png'}}, 1.5);
      Grl.to(saber2, 0.01, { autoAlpha: 1 }, 1.5);
      Grl.to(garda, 0.01, { autoAlpha: 1}, 1.5);
      Grl.to(saber, 1, { x: '+=100', y: '-=25', rotation: '-=4' }, 2);
@@ -195,7 +195,7 @@ function startGrantsTween() {
     // gra_text,stamp2,knot4,paper4,hand3,hand4,wax
     Gra.to(knot4, 1, { y: '-=10' }, 0);
     Gra.to(hand4, 0.3, { y: '-=740', ease: Power2.easeOut }, 0);
-    Gra.to(hand4, 0.1, { attr:{src:'/img/glove2.png', width: 335 } });
+    Gra.to(hand4, 0.1, { attr:{src:'/wp-content/themes/sigillum/img/glove2.png', width: 335 } });
     Gra.to(hand4, 0.7, { y: '+=540', ease: Power3.easeIn });
     Gra.to(paper4, 0.7, { y: '+=550', ease: Power3.easeIn }, 1.1);
     Gra.to(stamp2, 0.7, { y: '+=460', ease: Power3.easeIn  }, 1.15);
@@ -213,7 +213,7 @@ function startGrantsTween() {
     Gra.to(wax10, 0.1, { zIndex: 8 }, 4.9);
     Gra.to(hand3, 0.1, { opacity: 1 }, 3.7);
     Gra.to(hand3, 0.5, { x: '+=350', y: '-=50', rotation: '+=50', opacity: 1, ease: Power2.easeOut }, 3.8);
-    Gra.to(hand3, 0.1, { attr:{ src:'/img/glove3.png', width: '335'}}, 3.9);
+    Gra.to(hand3, 0.1, { attr:{ src:'/wp-content/themes/sigillum/img/glove3.png', width: '335'}}, 3.9);
     Gra.to(hand3, 0.5, { scale: 1.1, y: '+=30', rotation: '-=30' }, 4);
     Gra.to(stamp2, 0.5, { y: '-=200', rotation: '-=30' }, 4);
     Gra.to(hand3, 0.3, { scale: 0.95, y: '+=330', rotation: '+=20', ease: Power4.easeIn }, 4.8);
@@ -222,11 +222,11 @@ function startGrantsTween() {
     Gra.to(smoke6, 0.1, { zIndex: 12 }, 5.1 );
     Gra.to(paper4, 0.1, { y: '-=5', scale: 1.01, rotate: '-=1' }, 5.05);
     Gra.to(paper4, 0.1, { y: '+=5', scale: 0.99, rotate: '+=1' }, 5.15);
-    Gra.to(stamp2, 0.01, { attr:{ src: '/img/stamp3.png' }}, 5.6);
+    Gra.to(stamp2, 0.01, { attr:{ src: '../img/stamp3.png' }}, 5.6);
     Gra.to(hand3, 0.3, { x: '+=100', y: '-=230', rotation: '-=20', opacity: 1 }, 5.6);
     Gra.to(stamp2, 0.3, { x: '+=100', y: '-=230', rotation: '-=20', opacity: 1 }, 5.6);
     Gra.to(smoke6, 2, { rotation: '+=10', scale: 5, opacity: 0 }, 5.6);
-    Gra.to(hand3, 0.5, { x: '-=80', rotation: '+=2', attr:{ src:'/img/glove.png' }}, 5.9);
+    Gra.to(hand3, 0.5, { x: '-=80', rotation: '+=2', attr:{ src:'/wp-content/themes/sigillum/img/glove.png' }}, 5.9);
     Gra.to(stamp2, 0.3, { x: '+=60', y: '-=60', rotation: '+=50'}, 5.9);
     Gra.to(hand3, 0.5, { x: '-=1100', y: '+=40', rotation: '+=50'}, 6.2);
     Gra.to(stamp2, 1, { rotation: '+=7', ease: Bounce.easeOut }, 6.2);
@@ -340,8 +340,8 @@ $(document).ready(function(){
             autoplay: false,
             autoplaySpeed: 2000,
             appendArrows: '#sfr_slides',
-            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/img/prev.png"></a></div>',
-            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/img/next.png"></a></div>'
+            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/prev.png"></a></div>',
+            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/next.png"></a></div>'
         });
         $('#ger_slides').slick({
             slidesToShow: 3,
@@ -349,8 +349,8 @@ $(document).ready(function(){
             autoplay: false,
             autoplaySpeed: 2000,
             appendArrows: '#ger_slides',
-            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/img/prev.png"></a></div>',
-            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/img/next.png"></a></div>'
+            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/prev.png"></a></div>',
+            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/next.png"></a></div>'
         });
         $('#pro_slides').slick({
             slidesToShow: 3,
@@ -358,8 +358,8 @@ $(document).ready(function(){
             autoplay: false,
             autoplaySpeed: 2000,
             appendArrows: '#pro_slides',
-            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/img/prev.png"></a></div>',
-            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/img/next.png"></a></div>'
+            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/prev.png"></a></div>',
+            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/next.png"></a></div>'
         });
         $('#eve_slides').slick({
             slidesToShow: 3,
@@ -367,8 +367,8 @@ $(document).ready(function(){
             autoplay: false,
             autoplaySpeed: 2000,
             appendArrows: '#eve_slides',
-            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/img/prev.png"></a></div>',
-            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/img/next.png"></a></div>'
+            prevArrow: '<div class="prev-next-button prev slick-prev"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/prev.png"></a></div>',
+            nextArrow: '<div class="prev-next-button next slick-next"><a href="#" onclick="event.preventDefault()"><img src="/wp-content/themes/sigillum/img/next.png"></a></div>'
         });
 
     });
@@ -453,7 +453,7 @@ $(document).ready(function(){
         }
     });
 
-    $.getJSON('/data/cells.json', function (data) {
+    $.getJSON('/wp-content/themes/sigillum/data/cells.json', function (data) {
         //console.log(slideshowTemplate);
         var genealogiaScript = Handlebars.compile($('#genealogia-template').html());
         $('#genealogia').append(genealogiaScript(data));
