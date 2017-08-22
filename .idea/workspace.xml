@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004cda8a-e6cd-49db-95e0-93268158c32f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/data/cells.json" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/data/cells.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/custom-header.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/custom-header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/customizer.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/customizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/jetpack.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/jetpack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-tags.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-tags.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sigillum/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/sigillum/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,17 +22,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6930">
-              <caret line="329" column="5" lean-forward="true" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
+            <state relative-caret-position="5688">
+              <caret line="300" column="59" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
               <folding>
                 <element signature="e#0#5#0#PHP" expanded="false" />
-                <element signature="e#1379#1417#0#HTML" expanded="true" />
-                <element signature="e#2422#2455#0#HTML" expanded="true" />
-                <element signature="e#2574#2609#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="104" column="65" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="65" />
+              <folding>
+                <marker date="1503408445000" expanded="true" signature="15223:15678" ph="..." />
+                <marker date="1503408445000" expanded="true" signature="15713:16126" ph="..." />
+                <marker date="1503408445000" expanded="true" signature="16161:16574" ph="..." />
+                <marker date="1503408445000" expanded="true" signature="16628:16725" ph="..." />
+                <marker date="1503408445000" expanded="true" signature="16677:16706" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="377" column="52" lean-forward="false" selection-start-line="377" selection-start-column="51" selection-end-line="377" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
+              <folding>
+                <marker date="1503407813000" expanded="true" signature="4102:4198" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,12 +105,17 @@
       <find>url(/img/</find>
       <find>src:'/img</find>
       <find>src:'..</find>
+      <find>register_</find>
+      <find>id=&quot;menu-item</find>
+      <find>register_nav_menus</find>
+      <find>$args</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/wp-content/themes/sigillum/inc</dir>
       <dir>$PROJECT_DIR$/wp-content/themes</dir>
-      <dir>$PROJECT_DIR$/wp-content</dir>
       <dir>$PROJECT_DIR$/wp-content/themes/sigillum</dir>
+      <dir>$PROJECT_DIR$/wp-content</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -90,10 +131,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/sigillum/inc/customizer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/sigillum/inc/template-tags.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/data/cells.json" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/sigillum/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/data/cells.json" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sigillum/index.php" />
       </list>
     </option>
   </component>
@@ -112,9 +154,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="935" />
-    <option name="y" value="78" />
-    <option name="width" value="960" />
+    <option name="x" value="555" />
+    <option name="y" value="23" />
+    <option name="width" value="1365" />
     <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,7 +205,16 @@
               <item name="iash" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="twentyfifteen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sigillum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="iash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iash" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sigillum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -201,17 +252,18 @@
       <option name="presentableId" value="Default" />
       <updated>1503328096319</updated>
       <workItem from="1503328097796" duration="2197000" />
-      <workItem from="1503341969876" duration="4343000" />
+      <workItem from="1503341969876" duration="11519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6540000" />
+    <option name="totallyTimeSpent" value="13716000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="935" y="78" width="960" height="999" extended-state="0" />
+    <frame x="555" y="23" width="1365" height="999" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25490198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17687075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -241,7 +293,9 @@
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -251,9 +305,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#5#0#PHP" expanded="false" />
-            <element signature="e#1379#1417#0#HTML" expanded="true" />
-            <element signature="e#2422#2455#0#HTML" expanded="true" />
-            <element signature="e#2574#2609#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -270,14 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="0" column="168" lean-forward="true" selection-start-line="0" selection-start-column="168" selection-end-line="0" selection-end-column="168" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="113" column="11" lean-forward="false" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -302,14 +345,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -373,81 +408,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/class-walker-nav-menu-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="237" column="34" lean-forward="true" selection-start-line="237" selection-start-column="34" selection-end-line="237" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/data/cells.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="1" column="79" lean-forward="false" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
-          <caret line="2" column="97" lean-forward="false" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
-          <caret line="3" column="94" lean-forward="false" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
-          <caret line="6" column="82" lean-forward="false" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
-          <caret line="7" column="94" lean-forward="false" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
-          <caret line="8" column="80" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
-          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <caret line="13" column="82" lean-forward="false" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
-          <caret line="14" column="85" lean-forward="false" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-          <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
-          <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
-          <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-          <caret line="26" column="93" lean-forward="false" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
-          <caret line="29" column="91" lean-forward="false" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
-          <caret line="30" column="84" lean-forward="false" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
-          <caret line="31" column="94" lean-forward="false" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
-          <caret line="32" column="97" lean-forward="false" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
-          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-          <caret line="34" column="95" lean-forward="false" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-          <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
-          <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
-          <caret line="39" column="95" lean-forward="false" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
-          <caret line="40" column="84" lean-forward="false" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
-          <caret line="43" column="80" lean-forward="false" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
-          <caret line="44" column="81" lean-forward="false" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
-          <caret line="45" column="80" lean-forward="false" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+        <state relative-caret-position="259">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
+          <folding>
+            <marker date="1503407813000" expanded="true" signature="4102:4198" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="300" column="59" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-          <caret line="63" column="61" lean-forward="false" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
-          <caret line="82" column="61" lean-forward="false" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
-          <caret line="101" column="61" lean-forward="false" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
-          <caret line="120" column="61" lean-forward="false" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
-          <caret line="139" column="61" lean-forward="false" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
-          <caret line="158" column="61" lean-forward="false" selection-start-line="158" selection-start-column="61" selection-end-line="158" selection-end-column="61" />
+        <state relative-caret-position="2112">
+          <caret line="104" column="65" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="65" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1503408445000" expanded="true" signature="15223:15678" ph="..." />
+            <marker date="1503408445000" expanded="true" signature="15713:16126" ph="..." />
+            <marker date="1503408445000" expanded="true" signature="16161:16574" ph="..." />
+            <marker date="1503408445000" expanded="true" signature="16628:16725" ph="..." />
+            <marker date="1503408445000" expanded="true" signature="16677:16706" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="197" column="63" lean-forward="false" selection-start-line="197" selection-start-column="63" selection-end-line="197" selection-end-column="63" />
-          <caret line="215" column="64" lean-forward="false" selection-start-line="215" selection-start-column="64" selection-end-line="215" selection-end-column="64" />
-          <caret line="228" column="92" lean-forward="false" selection-start-line="228" selection-start-column="92" selection-end-line="228" selection-end-column="92" />
+        <state relative-caret-position="165">
+          <caret line="377" column="52" lean-forward="false" selection-start-line="377" selection-start-column="51" selection-end-line="377" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sigillum/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6930">
-          <caret line="329" column="5" lean-forward="true" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="false" />
-            <element signature="e#1379#1417#0#HTML" expanded="true" />
-            <element signature="e#2422#2455#0#HTML" expanded="true" />
-            <element signature="e#2574#2609#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

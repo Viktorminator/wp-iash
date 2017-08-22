@@ -197,164 +197,40 @@
         <nav>
             <ul class="menu">
                 <li class="block">
-                    <a href="#abo_intro">Про інститут
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Історія
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Місія
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Цілі
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#res_intro">Ресурси
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Історіографія
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Джерела
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#pub_intro">Видавництво
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Крамниця
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Пропозиції співпраці
-                            </a>
-                        </li>
-                    </ul>
+	                <?php wp_nav_menu( array(
+	                    'theme_location' => 'header-menu1',
+                        'container' => 'li',
+                        'container_class' => 'block',
+                        'items_wrap' => '%3$s',
+                        'items_class' => '',
+                        'depth' => 2,
+                        'walker' => new Nav_Header_Walker
+                    ) );
+	                ?>
                 </li>
                 <li class="block">
-                    <a href="#gen_intro">Генеалогія
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Майстерня
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/alphabet.html">Алфавіт родів
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Література з генеалогії
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#ger_intro">Геральдика
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Майстерня
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Родові герби
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Міські герби
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Література з геральдики
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#sfr_intro">Сфрагістика
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Майстерня
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Сфрагістичні колекції
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Каталог "1000 років української печатки"
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Література зі сфрагістики
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Реставрація
-                            </a>
-                        </li>
-                    </ul>
+	                <?php wp_nav_menu( array(
+		                'theme_location' => 'header-menu2',
+		                'container' => 'li',
+		                'container_class' => 'block',
+		                'items_wrap' => '%3$s',
+		                'items_class' => '',
+		                'depth' => 2,
+		                'walker' => new Nav_Header_Walker
+	                ) );
+	                ?>
                 </li>
                 <li class="block">
-                    <a href="#pro_intro">Проекти
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Музей Шереметьєвих
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Семінар СІД
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Сфрагістичний семінар
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Генеалогічна конференція
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Виставки і презентації
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Вікіпедія
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#eve_intro">Анонс подій
-                    </a>
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Графік семінарів СІД
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Публікації
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Виставки
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Презентації
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Конференції
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#gra_intro">Премії та гранти
-                    </a>
+	                <?php wp_nav_menu( array(
+		                'theme_location' => 'header-menu3',
+		                'container' => 'li',
+		                'container_class' => 'block',
+		                'items_wrap' => '%3$s',
+		                'items_class' => '',
+		                'depth' => 2,
+		                'walker' => new Nav_Header_Walker
+	                ) );
+	                ?>
                 </li>
             </ul>
             <div class="container">

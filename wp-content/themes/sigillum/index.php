@@ -302,14 +302,12 @@ get_header(); ?>
     <script>window.jQuery || document.write('<script src="/wp-content/themes/sigillum/js/vendor/jquery-1.11.2.min.js"><\\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
     </script>
-    <!--script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/kinetic-v5.1.0.min.js')-->
     <script src="/wp-content/themes/sigillum/js/ScrollMagic.min.js">
     </script>
     <script src="/wp-content/themes/sigillum/js/plugins/debug.addIndicators.min.js">
     </script>
     <script src="/wp-content/themes/sigillum/js/plugins/animation.gsap.min.js">
     </script>
-    <!--script(src='js/plugins/animation.velocity.min.js')-->
     <script src="/wp-content/themes/sigillum/js/plugins/jquery.ScrollMagic.min.js">
     </script>
     <script src="/wp-content/themes/sigillum/js/DrawSVGPlugin.min.js">

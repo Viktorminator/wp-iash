@@ -100,18 +100,7 @@ add_action( 'after_setup_theme', 'sigillum_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function sigillum_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'sigillum' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'sigillum' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'sigillum_widgets_init' );
+
 
 /**
  * Enqueue scripts and styles.
@@ -132,26 +121,78 @@ add_action( 'wp_enqueue_scripts', 'sigillum_scripts' );
 /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/inc/custom-header.php';
+//require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+//require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
-require get_template_directory() . '/inc/template-functions.php';
+//require get_template_directory() . '/inc/template-functions.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+//require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
-if ( defined( 'JETPACK__VERSION' ) ) {
+/*if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
+}*/
+/*
+ * Header menu
+ */
+function register_my_menu() {
+	register_nav_menus(
+		array(
+			'header-menu1' => __( 'Меню блок 1' ),
+	        'header-menu2' => __( 'Меню блок 2' ),
+			'header-menu3' => __( 'Меню блок 3' )
+		));
+}
+add_action( 'init', 'register_my_menu' );
+
+/*
+ * Header menu new Walker class
+ */
+class Nav_Header_Walker extends Walker_Nav_Menu {
+	function start_lvl( &$output, $depth = 0, $args = array() ) {
+		$indent = '<ul class="submenu">';
+		$output .= "\n$indent\n";
+	}
+	function end_lvl( &$output, $depth = 0, $args = array() ) {
+		$indent = '</ul>';
+		$output .= "$indent\n";
+	}
+	function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+		$class_names = $value = '';
+		$classes = empty( $item->classes ) ? array() : (array) $item->classes;
+		$classes[] = 'menu-item-' . $item->ID;
+		$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+		$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
+		$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+		$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
+		$output .= $indent . '';
+		$attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+		$attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+		$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+		$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+		$item_output = $args->before;
+		$item_output .= ($depth == 1) ? '<li>' :'';
+		$item_output .= '<a'. $attributes .'>';
+		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+		$item_output .= '</a>';
+		$item_output .= ($depth == 1) ? '</li>' :'';
+		$item_output .= $args->after;
+		$output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+	}
+	function end_el( &$output, $item, $depth = 0, $args = array() ) {
+		$output .= "\n";
+	}
 }
