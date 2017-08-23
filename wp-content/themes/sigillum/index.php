@@ -296,8 +296,7 @@ get_header(); ?>
         <div id="grants">
         </div>
     </div>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--script(type="text/javascript" src="/wp-content/themes/sigillum/js/script.js")-->
     <script>window.jQuery || document.write('<script src="/wp-content/themes/sigillum/js/vendor/jquery-1.11.2.min.js"><\\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
@@ -314,8 +313,7 @@ get_header(); ?>
     </script>
     <script src="/wp-content/themes/sigillum/js/SplitText.min.js">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
     <script type="text/javascript" src="/wp-content/themes/sigillum/js/handlebars.min.js">
     </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js">

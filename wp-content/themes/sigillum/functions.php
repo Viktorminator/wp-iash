@@ -106,11 +106,12 @@ add_action( 'after_setup_theme', 'sigillum_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function sigillum_scripts() {
-	wp_enqueue_style( 'sigillum-style', get_stylesheet_uri() );
+	wp_register_style('sigillum-style', get_template_directory_uri() . '/css/style.css');
+	wp_enqueue_style( 'sigillum-style');
 
-	wp_enqueue_script( 'sigillum-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	//wp_enqueue_script( 'sigillum-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'sigillum-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	//wp_enqueue_script( 'sigillum-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

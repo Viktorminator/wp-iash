@@ -17,9 +17,8 @@
         <title>IASH</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-        <link rel="stylesheet" href="/wp-content/themes/sigillum/css/style.css">
-        <script type="text/javascript" src="/wp-content/themes/sigillum/js/modernizr.custom.js">
-        </script>
+    	<?php wp_head(); ?>
+
         <script id="genealogia-template" type="text/x-hanlebars-template">
             <div class="project project_columns"><div class="section-anons section"><div class="slides" id="gen_slides">{{#each genealogia}}
                         <div class="slides__item {{#if_even @index}}odd{{ else }}even{{/if_even}} {{#if @first}} active {{/if}}">
@@ -174,7 +173,6 @@
                         {{/each}}</div></div></div></script>
 
 
-	<?php wp_head(); ?>
 </head>
 
 <body >
